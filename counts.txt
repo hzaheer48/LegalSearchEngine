@@ -1,0 +1,8 @@
+Category/Class Name      Number of Judgments
+C.A.                     253            
+C.M.A.                   120            
+C.P.                     286            
+Const.P.                 196            
+Crl.A.                   184            
+Crl.P.                   264            
+S.M.C.                   103            

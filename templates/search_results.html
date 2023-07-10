@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Search Engine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="{{ url_for('static', filename='css/styles2.css')}}" rel="stylesheet" media="all" />
+    </head>
+    <body>
+        <div class="signupFrm">
+            <div class="wrapper">
+                <form class="form" action="/search" method="GET">
+                    <h1 class="title">Search Case</h1>
+                    <div class="inputContainer">
+                        <input class="input" type="text" placeholder="a" name="query" />
+                        <label class="label" for="">Search...</label>        
+                    </div>
+                    <input class="submitBtn" type="submit" value="Search" />
+                </form>
+                    <br>
+                    {% if check %} {% for item in my_list %}
+                    <div class="inputContainer">
+                        <p class="styling">{{loop.index+(page*10-10)}}.&nbsp;{{item}}</p>
+                    </div>
+                    {% endfor %}
+                    <br>
+                    <div class="pagination pagining">
+                        {% if page > 1 %}
+                        <a href="{{ url_for('search', query=request.args.get('query'), page=page-1) }}">&laquo; Prev</a>
+                        {% endif %} {% for i in range(1, num_pages+1) %} {% if i == page %}
+                        <span class="current-page">{{ i }}</span>
+                        {% else %}
+                        <a href="{{ url_for('search', query=request.args.get('query'), page=i) }}">{{ i }}</a>
+                        {% endif %} {% endfor %} {% if page < num_pages %}
+                        <a href="{{ url_for('search', query=request.args.get('query'), page=page+1) }}">Next &raquo;</a>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                
+            </div>
+        </div>
+    </body>
+</html>

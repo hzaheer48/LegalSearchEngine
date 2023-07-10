@@ -1,0 +1,11 @@
+Query Term:1	BM25	0.4	0.4	0.4	0.367	
+Query Term:2	BM25	0.5	0.5	0.5	0.76	
+Query Term:3	BM25	0.5	0.5	0.5	0.563	
+Query Term:4	BM25	0.8	0.8	0.8	0.834	
+Query Term:5	BM25	0.9	0.9	0.9	0.878	
+Query Term:6	BM25	0.4	0.4	0.4	0.329	
+Query Term:7	BM25	0.9	0.9	0.9	0.906	
+Query Term:8	BM25	0.7	0.7	0.7	0.702	
+Query Term:9	BM25	0.8	0.8	0.8	0.811	
+Query Term:10	BM25	0.4	0.4	0.4	0.353	
+Mean Average Precision for 10 queries:0.65

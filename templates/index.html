@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Search Engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" media="all">
+  </head>
+  <body>
+    <div class="signupFrm">
+      <div class="wrapper">
+          <form class="form" action="/search" method="GET">
+              <h1 class="title">Search Case</h1>
+              <div class="inputContainer">
+                <input class="input" type="text" placeholder="a" name="query" />
+                <label class="label" for="">Search...</label>
+              </div>
+              <input class="submitBtn" type="submit" value="Search" />
+          </form>
+      </div>
+  </div>
+  </body>
+</html>

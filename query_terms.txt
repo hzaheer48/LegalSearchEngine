@@ -1,0 +1,10 @@
+1 civil appeal
+2 civil miscellaneous application
+3 civil petition
+4 constitutional petition
+5 criminal appeal
+6 criminal petition
+7 suo moto case
+8 criminal judgment case
+9 constitutional petition case
+10 civil judgment

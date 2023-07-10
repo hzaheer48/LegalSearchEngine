@@ -1,0 +1,10 @@
+govern 585.017
+accus 551.395
+servic 550.389
+const 525.831
+appoint 521.758
+feder 518.908
+power 518.556
+rule 516.725
+ordin 515.958
+crimin 502.473
