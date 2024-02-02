@@ -45,3 +45,7 @@ To run the Legal Search Engine locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/hzaheer48/LegalSearchEngine.git`
 2. Navigate to the project directory: `cd LegalSearchEngine`
 3. Run the web interface: `web_interface.py`
+
+## Screenshots
+![Alt text](/screenshots/screenshot_1.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_2.png?raw=true "Optional Title")
